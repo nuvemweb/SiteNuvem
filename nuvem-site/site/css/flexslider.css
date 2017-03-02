@@ -1,0 +1,344 @@
+.flex-container a:active, 
+.flexslider a:active, 
+.flex-container a:focus, 
+.flexslider a:focus   {
+    outline: none;
+}
+.slides, 
+.flex-control-nav, 
+.flex-direction-nav  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flexslider  {
+    margin: 0;
+    padding: 0;
+}
+
+.playerservicos .flexslider{
+    width: 900px;
+    float: right;
+    margin-right: 0px;
+}
+
+.flexslider .slides > li  {
+    display: none;
+    -webkit-backface-visibility: hidden;
+    position: relative;
+}
+.player .flexslider .slides img  {
+    width: 100%;
+    display: block;
+}
+
+.playerservicos .flexslider .slides img{
+    width: 49%;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+
+.flex-pauseplay span  {
+    text-transform: capitalize;
+}
+.slides:after  {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+html[xmlns] .slides  {
+    display: block;
+}
+* html .slides  {
+    height: 1%;
+}
+.no-js .slides > li:first-child  {
+    display: block;
+}
+.flexslider  {
+    margin: 0;
+    position: relative;
+    zoom: 1;
+}
+.flex-viewport  {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.loading .flex-viewport  {
+    max-height: 300px;
+}
+.flexslider .slides  {
+    zoom: 1;
+}
+.carousel li  {
+    margin-right: 5px;
+}
+.flex-direction-nav  {
+    *height: 0;
+}
+.flex-direction-nav a   {
+    text-decoration:none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    margin-top:0px;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 1;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.player .flex-direction-nav .flex-prev  {
+    left: 19%;
+    background-position: 0 center;
+    background: url("../img/botaoantes.png") no-repeat;    
+}
+
+
+.player .flex-direction-nav .flex-next  {
+    right: 19%;
+    background-position: right center;
+    background: url("../img/botaodepois.png") no-repeat;     
+}
+
+.playerservicos .flex-direction-nav .flex-prev {
+    left: 52%;
+    background-position: 0 center;
+    top: 170px;
+    background: url("../img/botaoantes.png") no-repeat; 
+}
+
+.playerservicos .flex-direction-nav .flex-next  {
+    right: 36%;
+    top: 170px;
+    background-position: right center;
+    background: url("../img/botaodepois.png") no-repeat;     
+}
+
+.flex-direction-nav .flex-disabled  {
+    opacity: 0!important;
+    filter:alpha(opacity=0);
+    cursor: default;
+}
+.flex-pauseplay a  {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    opacity: 0.8;
+    z-index: 10;
+    overflow: hidden;
+    cursor: pointer;
+    color: #000;
+}
+.flex-pauseplay a:before   {
+    font-family: "flexslider-icon";
+    font-size: 20px;
+    display: inline-block;
+    content: 'f004';
+}
+.flex-pauseplay a:hover   {
+    opacity: 1;
+}
+.flex-pauseplay a.flex-play:before  {
+    content: 'f003';
+}
+.flex-control-nav  {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    bottom: 50px;
+    text-align: center;
+}
+.flex-control-nav li  {
+    margin: 0 3px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.flex-control-paging li a  {
+    width: 22px;
+    height: 5px;
+    display: block;
+    background: rgba(0,0,0, 0.3);
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active  {
+    background:#FFF;
+}
+.flex-control-thumbs  {
+    margin: 5px 0 0;
+    position: static;
+    overflow: hidden;
+}
+.flex-control-thumbs li  {
+    width: 25%;
+    float: left;
+    margin: 0;
+}
+.flex-control-thumbs img  {
+    width: 100%;
+    display: block;
+    opacity: .7;
+    cursor: pointer;
+}
+.flex-control-thumbs img:hover  {
+    opacity: 1;
+}
+.flex-control-thumbs .flex-active  {
+    opacity: 1;
+    cursor: default;
+}
+.player .flex-caption {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+}
+.playerservicos .flex-caption{
+    display: block;
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    top: -230px;
+   
+}
+
+.flex-caption h3,
+.flex-caption p {
+    margin: 0 auto;
+    color: white;
+    font-family: 'adobe_caslon_pro_semibold_italic';
+}
+.player .flex-caption h3 {
+    font-size: 50pt;
+    width: 80%;
+    font-family: 'brisaregular';
+}
+
+.playerservicos .flex-caption h3{
+    font-family: 'Roboto Thin';
+    color: red;
+    text-transform: uppercase;
+    float: left;
+    position: relative;
+    top: 0px;
+    
+}
+
+.playerservicos .flex-caption p{
+    width: 50%;
+    font-size: 14px;
+    font-family: 'Roboto Light';
+    color: #333;
+    right: 215px;
+    top: 0px;
+    position: relative;
+    padding-right: 35px;
+   
+}
+
+.player .flex-caption p {
+    width: 50%;
+    font-size: 12pt;
+    text-shadow: 3px 3px 3px  rgba(0,0,0,.3);
+    font-family: 'Roboto Light';
+}
+
+.player .flex-caption a{
+    color: red;
+    border: 2px solid red;
+    background-color:transparent;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.playerservicos .flex-caption a{
+    color: red;
+    font-family: 'Roboto Light';
+    font-size: 10pt;
+    position: relative;
+    top: 0px;
+
+}
+
+
+
+.player .flex-caption a:hover{
+    color: white;
+    background-color: red;
+}
+
+
+
+
+
+@media (max-width: 480px) {  
+    /* celular vertical*/
+    .flex-caption {
+        top: 30% !important;
+        margin-left: initial !important;
+    }
+    .flex-caption h3 {
+        font-size: 22px !important;
+       
+    }
+    .playerservicos .flex-caption p {
+        width: 100% !important;
+        font-size: 14px !important;
+        right: 0px;
+        padding-right: 0px;
+            
+
+    }
+
+    .playerservicos .flex-caption a{
+        right: 70%;
+        
+    }
+}
+@media (min-width:481px) and (max-width: 768px) {
+    /* celular horizontal*/
+    .flex-caption {
+        top: 30% !important;
+        margin-left: initial !important;
+    }
+    .flex-caption h3 {
+        font-size: 22px !important;
+       
+    }
+    .playerservicos .flex-caption p {
+        width: 100% !important;
+        font-size: 14px !important;
+        right: 0px;
+        padding-right: 0px;
+            
+
+    }
+
+    .playerservicos .flex-caption a{
+        right: 70%;
+        
+    }
+}
+@media screen and (max-width: 1199px)  {
+}
+
