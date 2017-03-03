@@ -487,7 +487,11 @@
 			<a href="http://www.facebook.com/PrimeInformaticaCel" target="_blank"><img src="<?php echo $this -> webroot;?>/img/parceiro2"></a>
 		</div>
 		<div class="col-md-4 col-xs-12 nv-parceiro" data-scroll-reveal="enter right" >
+<<<<<<< HEAD
 			<a href="http://www.solucoeswebsites.com.br/" target="_blank"><img src="<?php echo $this -> webroot;?>/img/parceiro3"></a>
+=======
+			<a href="http://www.solucoeswebsites.com.br" target="_blank"><img src="<?php echo $this -> webroot;?>/img/parceiro3"></a>
+>>>>>>> fb2602de5a344a5377802e545966c468890ee631
 		</div>
 	</div>
 	
